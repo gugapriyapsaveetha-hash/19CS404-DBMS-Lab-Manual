@@ -12,6 +12,7 @@ A subquery is a query inside another SQL query and is embedded in:
 - FROM clause
 
 **Types:**
+
 - **Single-row subquery**:
   Sub queries can also return more than one value. Such results should be made use along with the operators in and any.
 - **Multiple-row subquery**:
