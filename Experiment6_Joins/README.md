@@ -24,6 +24,7 @@ Returns all records from the left table, and matched records from the right.
 **Syntax:**
 
 ```sql
+
 SELECT columns
 FROM table1
 LEFT JOIN table2
