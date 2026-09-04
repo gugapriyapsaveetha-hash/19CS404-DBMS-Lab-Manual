@@ -4,7 +4,6 @@
 To study and implement aggregate functions, GROUP BY, and HAVING clause with suitable examples.
 
 ## THEORY
-
 ### Aggregate Functions
 These perform calculations on a set of values and return a single value.
 
