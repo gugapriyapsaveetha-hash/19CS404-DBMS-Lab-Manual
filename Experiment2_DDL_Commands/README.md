@@ -5,6 +5,12 @@ To study and implement DDL commands and different types of constraints.
 
 ## THEORY
 
+DDL (Data Definition Language) commands are used to define and manage the structure of database objects such as tables. The major DDL commands are CREATE, ALTER, DROP, and RENAME. The CREATE command is used to create a new table, while ALTER is used to modify an existing table by adding, modifying, dropping, or renaming columns. The DROP command permanently removes a table, and RENAME changes the name of an existing table.
+
+Constraints are rules applied to columns of a table to maintain data integrity, accuracy, and consistency. The commonly used constraints are NOT NULL, UNIQUE, CHECK, PRIMARY KEY, FOREIGN KEY, and DEFAULT. NOT NULL prevents null values, UNIQUE prevents duplicate values, CHECK enforces a specified condition, PRIMARY KEY uniquely identifies each record, FOREIGN KEY establishes a relationship between tables, and DEFAULT provides a value when no value is specified.
+
+Thus, DDL commands help manage the database structure, while constraints ensure that valid and consistent data is maintained in the database.
+
 ### 1. CREATE
 Used to create a new relation (table).
 
