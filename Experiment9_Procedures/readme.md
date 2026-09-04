@@ -3,7 +3,6 @@
 ## AIM
 To understand and implement procedures and functions in PL/SQL for performing various operations such as calculations, decision-making, and looping.
 
----
 
 ## THEORY
 
@@ -60,10 +59,29 @@ Key Differences:
 - Use `DBMS_OUTPUT.PUT_LINE` to display the result.
 - Call the procedure with a number as input.
 
+**PL/SQL Query:**
+```
+CREATE OR REPLACE PROCEDURE find_square(n NUMBER)
+IS
+    result NUMBER;
+BEGIN
+    result := n * n;
+    DBMS_OUTPUT.PUT_LINE('Square of ' || n || ' is ' || result);
+END;
+/
+
+BEGIN
+    find_square(6);
+END;
+/
+```
+
 **Expected Output:**  
 Square of 6 is 36
 
----
+**Output Obtained:**
+<img width="500" height="77" alt="image" src="https://github.com/user-attachments/assets/a97aa125-0bab-40fe-b157-9d04cf695c3d" />
+
 
 ## 2. Write a PL/SQL Function to Return the Factorial of a Number
 
@@ -74,10 +92,33 @@ Square of 6 is 36
 - Return the result using the `RETURN` statement.
 - Call the function using a `SELECT` statement or in an anonymous block.
 
+**PL/SQL Query:**
+```
+CREATE OR REPLACE FUNCTION get_factorial(n NUMBER)
+RETURN NUMBER
+IS
+    fact NUMBER := 1;
+BEGIN
+    FOR i IN 1..n LOOP
+        fact := fact * i;
+    END LOOP;
+
+    RETURN fact;
+END;
+/
+
+BEGIN
+    DBMS_OUTPUT.PUT_LINE('Factorial of 5 is ' || get_factorial(5));
+END;
+/
+```
+
 **Expected Output:**  
 Factorial of 5 is 120
 
----
+**Output Obtained:**
+<img width="546" height="100" alt="image" src="https://github.com/user-attachments/assets/50a77f16-f47c-48bd-8e53-2244d3b2932e" />
+
 
 ## 3. Write a PL/SQL Procedure to Check Whether a Number is Even or Odd
 
@@ -87,10 +128,31 @@ Factorial of 5 is 120
 - Use the `MOD` function to check if the number is divisible by 2.
 - Display whether it is Even or Odd using `DBMS_OUTPUT.PUT_LINE`.
 
+**PL/SQL Query:**
+```
+CREATE OR REPLACE PROCEDURE check_even_odd(n NUMBER)
+IS
+BEGIN
+    IF MOD(n, 2) = 0 THEN
+        DBMS_OUTPUT.PUT_LINE(n || ' is Even');
+    ELSE
+        DBMS_OUTPUT.PUT_LINE(n || ' is Odd');
+    END IF;
+END;
+/
+
+BEGIN
+    check_even_odd(12);
+END;
+/
+```
+
 **Expected Output:**  
 12 is Even
 
----
+**Output Obtained:**
+<img width="575" height="92" alt="image" src="https://github.com/user-attachments/assets/050ba810-f329-4770-8855-bdefec1b1205" />
+
 
 ## 4. Write a PL/SQL Function to Return the Reverse of a Number
 
@@ -101,10 +163,39 @@ Factorial of 5 is 120
 - Return the reversed number.
 - Call the function and display the output.
 
+**PL/SQL Query:**
+```
+CREATE OR REPLACE FUNCTION reverse_number(n NUMBER)
+RETURN NUMBER
+IS
+    rev NUMBER := 0;
+    digit NUMBER;
+    num NUMBER := n;
+BEGIN
+    WHILE num > 0 LOOP
+        digit := MOD(num, 10);
+        rev := rev * 10 + digit;
+        num := TRUNC(num / 10);
+    END LOOP;
+
+    RETURN rev;
+END;
+/
+
+BEGIN
+    DBMS_OUTPUT.PUT_LINE(
+        'Reversed number of 1234 is ' || reverse_number(1234)
+    );
+END;
+/
+```
+
 **Expected Output:**  
 Reversed number of 1234 is 4321
 
----
+**Output Obtained:**
+<img width="651" height="95" alt="image" src="https://github.com/user-attachments/assets/24f5739e-1151-4e63-9d2b-2892e8348172" />
+
 
 ## 5. Write a PL/SQL Procedure to Display the Multiplication Table of a Number
 
@@ -114,6 +205,25 @@ Reversed number of 1234 is 4321
 - Use a loop from 1 to 10 to multiply the input number.
 - Display the multiplication results using `DBMS_OUTPUT.PUT_LINE`.
 
+**PL/SQL query:**
+```
+CREATE OR REPLACE PROCEDURE print_table(n NUMBER)
+IS
+BEGIN
+    DBMS_OUTPUT.PUT_LINE('Multiplication table of ' || n || ':');
+
+    FOR i IN 1..10 LOOP
+        DBMS_OUTPUT.PUT_LINE(n || ' x ' || i || ' = ' || (n * i));
+    END LOOP;
+END;
+/
+
+BEGIN
+    print_table(5);
+END;
+/
+```
+
 **Expected Output:**  
 Multiplication table of 5:  
 5 x 1 = 5  
@@ -121,6 +231,10 @@ Multiplication table of 5:
 5 x 3 = 15  
 ...  
 5 x 10 = 50
+
+**Output Obtained:**
+<img width="560" height="347" alt="image" src="https://github.com/user-attachments/assets/70c7975e-c733-4450-8577-d706f30e53fb" />
+
 
 ## RESULT
 Thus, the PL/SQL programs using procedures and functions were written, compiled, and executed successfully.
