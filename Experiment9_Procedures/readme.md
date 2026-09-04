@@ -120,7 +120,7 @@ Factorial of 5 is 120
 **Output Obtained:**
 ```
 <img width="546" height="100" alt="image" src="https://github.com/user-attachments/assets/50a77f16-f47c-48bd-8e53-2244d3b2932e" />
-```
+
 
 ## 3. Write a PL/SQL Procedure to Check Whether a Number is Even or Odd
 
@@ -153,7 +153,7 @@ END;
 12 is Even
 
 **Output Obtained:**
-```
+
 <img width="575" height="92" alt="image" src="https://github.com/user-attachments/assets/050ba810-f329-4770-8855-bdefec1b1205" />
 ```
 
@@ -199,7 +199,7 @@ Reversed number of 1234 is 4321
 **Output Obtained:**
 ```
 <img width="651" height="95" alt="image" src="https://github.com/user-attachments/assets/24f5739e-1151-4e63-9d2b-2892e8348172" />
-```
+
 
 ## 5. Write a PL/SQL Procedure to Display the Multiplication Table of a Number
 
@@ -237,7 +237,7 @@ Multiplication table of 5:
 5 x 10 = 50
 
 **Output Obtained:**
-```
+
 <img width="560" height="347" alt="image" src="https://github.com/user-attachments/assets/70c7975e-c733-4450-8577-d706f30e53fb" />
 ```
 
