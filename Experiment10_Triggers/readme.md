@@ -72,6 +72,7 @@ FROM employee_log;
 - A new entry is added to the `employee_log` table each time a new record is inserted into the `employees` table.
 
 **Output:**
+
 <img width="730" height="158" alt="image" src="https://github.com/user-attachments/assets/6d847b98-bffd-400c-972d-57d0e5f066e7" />
 
 
@@ -105,6 +106,7 @@ DELETE FROM sensitive_data WHERE id = 1;
 - If an attempt is made to delete a record from `sensitive_data`, an error message is raised, e.g., `ERROR: Deletion not allowed on this table.`
 
 **Output:**
+
 <img width="793" height="245" alt="image" src="https://github.com/user-attachments/assets/73ca1b16-f3e0-45bb-b393-40d98dda0a48" />
 
 
@@ -147,6 +149,7 @@ FROM products;
 - The `last_modified` column in the `products` table is updated automatically to the current date and time when any record is updated.
 
 **Output:**
+
 <img width="877" height="161" alt="image" src="https://github.com/user-attachments/assets/cd7ac9a6-639a-4ec1-a928-e57f74ea4f83" />
 
 
@@ -194,6 +197,7 @@ SELECT * FROM audit_log;
 - The `audit_log` table will maintain a count of how many updates have been made to the `customer_orders` table.
 
 **Output:**
+
 <img width="657" height="166" alt="image" src="https://github.com/user-attachments/assets/9fe8430c-b980-49b8-a5a5-e71f3775848f" />
 
 
@@ -230,6 +234,7 @@ INSERT INTO employees VALUES (2, 'Bob', 2000);
 - If the inserted salary in the `employees` table is below the condition (e.g., salary < 3000), the insert operation is blocked, and an error message is raised, such as: `ERROR: Salary below minimum threshold.`
 
 **Output:**
+
 <img width="918" height="202" alt="image" src="https://github.com/user-attachments/assets/ec0f34b8-76f7-4b14-a277-d66e1283a5ca" />
 
 
