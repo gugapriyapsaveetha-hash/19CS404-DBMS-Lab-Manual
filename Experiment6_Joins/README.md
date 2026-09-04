@@ -6,6 +6,7 @@ To study and implement different types of joins.
 ## THEORY
 
 SQL Joins are used to combine records from two or more tables based on a related column.
+JOINS
 
 ### 1. INNER JOIN
 Returns records with matching values in both tables.
