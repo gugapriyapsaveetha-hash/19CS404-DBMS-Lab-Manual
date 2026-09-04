@@ -80,7 +80,7 @@ END;
 Square of 6 is 36
 
 **Output Obtained:**
-```
+
 <img width="500" height="77" alt="image" src="https://github.com/user-attachments/assets/a97aa125-0bab-40fe-b157-9d04cf695c3d" />
 ```
 
