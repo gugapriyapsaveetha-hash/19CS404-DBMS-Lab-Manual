@@ -131,7 +131,7 @@ sql :
 
 **Question 3**
 
-<img width="740" height="287" alt="image" src="https://github.com/user-attachments/assets/ffd05c41-59c4-4b5f-9848-0de0f79e1284" />
+<img width="842" height="267" alt="image" src="https://github.com/user-attachments/assets/edb4c8f7-3e5c-4226-85e0-2b2cf3b33494" />
 
 sql :
 
