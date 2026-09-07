@@ -104,12 +104,15 @@ CREATE TABLE Table_Name (
 ```
 
 **Question 1**
+
 <img width="817" height="258" alt="image" src="https://github.com/user-attachments/assets/c8d656a7-cdf5-4664-a186-d0b94285f408" />
 
 sql
+
 <img width="626" height="135" alt="image" src="https://github.com/user-attachments/assets/aa547cf6-ad2f-4e1a-aa87-6670b66f34c3" />
 
 **Output:**
+
 <img width="856" height="207" alt="image" src="https://github.com/user-attachments/assets/95bee9b7-7a4a-4428-8a89-9d5b029917a2" />
 
 
@@ -118,6 +121,7 @@ sql
 <img width="836" height="297" alt="image" src="https://github.com/user-attachments/assets/dabba20a-f9d0-4249-a325-33f10e7eff40" />
 
 sql :
+
 <img width="650" height="122" alt="image" src="https://github.com/user-attachments/assets/eac4da82-3e83-41b0-a851-37f4cafaed01" />
 
 **Output:**
@@ -127,7 +131,10 @@ sql :
 
 **Question 3**
 
+<img width="740" height="287" alt="image" src="https://github.com/user-attachments/assets/ffd05c41-59c4-4b5f-9848-0de0f79e1284" />
+
 sql :
+
 <img width="595" height="82" alt="image" src="https://github.com/user-attachments/assets/1e0714fd-c5a1-46d6-9cad-47d221cba2e9" />
 
 **Output:**
