@@ -38,40 +38,42 @@ DROP VIEW view_name;
 ```
 
 **Question 1**
---
--- Paste Question 1 here
 
-```sql
--- Paste your SQL code below for Question 1
-```
+<img width="830" height="453" alt="image" src="https://github.com/user-attachments/assets/31333c9e-dc33-4154-bf08-37a0aaf3cf8a" />
+
+SQL :
+
+<img width="771" height="85" alt="image" src="https://github.com/user-attachments/assets/2efb89ad-5d84-4958-9114-1a23dbff14da" />
 
 **Output:**
 
-![Output1](output.png)
+<img width="841" height="235" alt="image" src="https://github.com/user-attachments/assets/cc6151cb-7707-44c1-8466-9f98296f2891" />
 
 **Question 2**
----
--- Paste Question 2 here
 
-```sql
--- Paste your SQL code below for Question 2
-```
+<img width="831" height="585" alt="image" src="https://github.com/user-attachments/assets/01d926af-9f72-44ac-8308-d3fcd446c5fa" />
+
+SQL :
+
+
+
 
 **Output:**
 
-![Output2](output.png)
+
+
 
 **Question 3**
----
--- Paste Question 3 here
 
-```sql
--- Paste your SQL code below for Question 3
-```
+
+
+SQL :
+
+
 
 **Output:**
 
-![Output3](output.png)
+
 
 **Question 4**
 ---
